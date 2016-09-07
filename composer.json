@@ -1,0 +1,22 @@
+{
+    "name": "pbmedia/laravel-mail-null-driver",
+    "description": "Adds a 'null' mail driver in Laravel.",
+    "keywords": ["laravel", "mail"],
+    "homepage": "https://github.com/pascalbaljetmedia/laravel-mail-null-driver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal Baljet",
+            "email": "pascal@pascalbaljetmedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/mail": "5.1.* || 5.2.* || 5.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pbmedia\\MailNullDriver\\": "src"
+        }
+    }
+}
