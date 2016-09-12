@@ -1,4 +1,4 @@
-# Laravel Mail Null Driver
+# Laravel Mail Null Driver [WIP!]
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/pbmedia/laravel-mail-null-driver.svg?style=flat-square)](https://packagist.org/packages/pbmedia/laravel-mail-null-driver)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
