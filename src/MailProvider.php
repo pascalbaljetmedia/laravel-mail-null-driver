@@ -14,13 +14,30 @@ class MailProvider extends MailServiceProvider
      */
     public function registerSwiftMailer()
     {
-        if ($this->app['config']['mail.driver'] === 'null') {
+        if ($this->isDriverNull()) {
             return $this->registerNullSwiftMailer();
         }
 
         parent::registerSwiftMailer();
     }
 
+    /**
+     * Predicate that determines whether the driver is set as a null string or
+     * null data type
+     * @method isDriverNull
+     * @return bool
+     */
+    private function isDriverNull()
+    {
+        if ($this->app['config']['mail.driver'] === 'null') {
+            return true;
+        } elseif (is_null($this->app['config']['mail.driver'])) {
+            return true;
+        }
+
+        return false;
+    }
+    
     /**
      * Register the Null Swift Mailer instance.
      *
