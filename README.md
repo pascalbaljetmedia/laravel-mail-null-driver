@@ -1,4 +1,4 @@
-# Laravel Mail Null Driver [WIP!]
+# Laravel Mail Null Driver 
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/pbmedia/laravel-mail-null-driver.svg?style=flat-square)](https://packagist.org/packages/pbmedia/laravel-mail-null-driver)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -6,7 +6,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/pascalbaljetmedia/laravel-mail-null-driver.svg?style=flat-square)](https://scrutinizer-ci.com/g/pascalbaljetmedia/laravel-mail-null-driver)
 [![Total Downloads](https://img.shields.io/packagist/dt/pbmedia/laravel-mail-null-driver.svg?style=flat-square)](https://packagist.org/packages/pbmedia/laravel-mail-null-driver)
 
-This package provides a 'null' mail driver for Laravel 5.1 and higher.
+This package provides a 'null' mail driver for Laravel 5.1-5.3. For Laravel 5.4 and higher, please use the `array` driver.
 
 ## Installation
 
